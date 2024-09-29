@@ -1,0 +1,109 @@
+.hero{
+
+    height:60vh;
+
+
+    width:100%;
+
+
+    color:#fff;
+
+
+    background:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("../../assets/stock.jpg");
+
+
+    background-position:center;
+
+    background-size:cover;
+
+    background-repeat:no-repeat;
+
+}
+
+.hero .container{
+    height:100%;
+}
+
+.hero .content{
+
+
+
+    height:100%;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    width:80%;
+
+}
+
+.hero .content .title{
+
+    font-size:6rem;
+
+}
+
+.hero .content .description{
+
+    font-size:2rem;
+
+}
+
+.hero .content p{
+
+    color:#fff;
+}
+
+.hero .content .hero-btns{
+
+    display:flex;
+
+gap:20px;
+
+}
+
+.hero .content .hero-btns button{
+
+}
+
+/* Breaking points */
+
+
+@media(max-width:990px){
+
+    .hero .content{
+
+        justify-content:center;
+
+        text-align:center;
+
+        align-content: center;
+
+        width:100%;
+
+    }
+    .hero .content .hero-btns{
+
+        justify-content:center;
+        margin-top:1rem;
+
+    }
+}
+@media(max-width:990px){
+
+    .hero .content .title{
+
+        font-size:4rem;
+
+    }
+    .hero .content .description{
+
+        font-size:1.4rem;
+
+        line-height:1.7;
+
+    }
+}

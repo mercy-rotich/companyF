@@ -1,0 +1,50 @@
+.navbar{
+
+    box-shadow: 0 0 5px rgba(0,0,0,0.76);
+
+}
+
+.navbar .container{
+
+    display:flex;
+
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    text-align: center;
+}
+
+.navbar .container ul{
+
+    display:flex;
+
+
+    gap:20px;
+
+}
+
+.navbar .logo a{
+
+    font-size:1.6rem;
+
+    font-weight:500;
+
+    color:#ff004f;
+
+}
+
+.navbar .logo a span{
+
+    color:rgb(245,140,133);
+
+    font-weight:700;
+
+    margin-left:1rem;
+
+}
+
+.navbar .container ul li a{
+    font-size:1.5rem;
+}

@@ -11,3 +11,52 @@
 
   font-family:'Poppins',sans-serif;
 }
+
+a{
+
+  text-decoration:none;
+}
+
+ul{
+
+  list-style:none;
+
+}
+
+html{
+
+  font-size:62.5%;
+
+}
+
+.container{
+
+  max-width:1200px;
+
+  width:94%;
+
+
+margin:0 auto;
+
+}
+
+.hero-btn{
+  border:none;
+  padding:0.5rem 2rem;
+  background:#ff004f;
+  color:#fff;
+  border:2px solid #ff004f;
+
+  transition:all 0.5s;
+
+  cursor:pointer;
+}
+.hero-btn:hover{
+
+  background:transparent;
+
+  letter-spacing:2px;
+
+  border:2px solid #ff004f;
+
+}
